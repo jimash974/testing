@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4606687A2A42F0100058896F /* inputDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460668792A42F0100058896F /* inputDataView.swift */; };
+		580BBEB92A4582BE00DA8064 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 580BBEB82A4582BE00DA8064 /* .gitignore */; };
+		585580002A42828F00991CA4 /* BLINKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58557FFF2A42828F00991CA4 /* BLINKApp.swift */; };
+		585580022A42828F00991CA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585580012A42828F00991CA4 /* ContentView.swift */; };
+		585580042A42829100991CA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585580032A42829100991CA4 /* Assets.xcassets */; };
+		585580072A42829100991CA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585580062A42829100991CA4 /* Preview Assets.xcassets */; };
+		585580092A42829100991CA4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585580082A42829100991CA4 /* Persistence.swift */; };
+		5855800C2A42829100991CA4 /* BLINK.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5855800A2A42829100991CA4 /* BLINK.xcdatamodeld */; };
+		5855801A2A42836900991CA4 /* Prompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585580192A42836900991CA4 /* Prompt.swift */; };
+		5855801C2A42837000991CA4 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5855801B2A42837000991CA4 /* ErrorMessage.swift */; };
+		585580202A4283AC00991CA4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5855801F2A4283AC00991CA4 /* NetworkManager.swift */; };
+		585580222A4283B800991CA4 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585580212A4283B800991CA4 /* CoreDataManager.swift */; };
+		585580262A4283E900991CA4 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585580252A4283E900991CA4 /* AppColor.swift */; };
+		585580302A42848400991CA4 /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5855802F2A42848400991CA4 /* Bus.swift */; };
+		585580322A42848B00991CA4 /* BusRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585580312A42848B00991CA4 /* BusRepository.swift */; };
+		585580342A42850C00991CA4 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585580332A42850C00991CA4 /* EmptyState.swift */; };
+		585580362A42853000991CA4 /* ListComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585580352A42853000991CA4 /* ListComponent.swift */; };
+		585580382A42854000991CA4 /* TextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585580372A42854000991CA4 /* TextModifier.swift */; };
+		5855803A2A42857100991CA4 /* TimeToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585580392A42857100991CA4 /* TimeToString.swift */; };
+		5855803C2A4285A400991CA4 /* BusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5855803B2A4285A400991CA4 /* BusViewModel.swift */; };
+		585580412A42860B00991CA4 /* BookMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585580402A42860B00991CA4 /* BookMark.swift */; };
+		585580432A42861800991CA4 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585580422A42861800991CA4 /* Reminder.swift */; };
+		585580452A42868500991CA4 /* ListBusComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585580442A42868500991CA4 /* ListBusComponent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		460668792A42F0100058896F /* inputDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputDataView.swift; sourceTree = "<group>"; };
+		580BBEB82A4582BE00DA8064 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		58557FFC2A42828F00991CA4 /* BLINK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLINK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58557FFF2A42828F00991CA4 /* BLINKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLINKApp.swift; sourceTree = "<group>"; };
+		585580012A42828F00991CA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		585580032A42829100991CA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		585580062A42829100991CA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		585580082A42829100991CA4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		5855800B2A42829100991CA4 /* BLINK.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BLINK.xcdatamodel; sourceTree = "<group>"; };
+		585580192A42836900991CA4 /* Prompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt.swift; sourceTree = "<group>"; };
+		5855801B2A42837000991CA4 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		5855801F2A4283AC00991CA4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		585580212A4283B800991CA4 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		585580252A4283E900991CA4 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		5855802F2A42848400991CA4 /* Bus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
+		585580312A42848B00991CA4 /* BusRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusRepository.swift; sourceTree = "<group>"; };
+		585580332A42850C00991CA4 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		585580352A42853000991CA4 /* ListComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListComponent.swift; sourceTree = "<group>"; };
+		585580372A42854000991CA4 /* TextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModifier.swift; sourceTree = "<group>"; };
+		585580392A42857100991CA4 /* TimeToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeToString.swift; sourceTree = "<group>"; };
+		5855803B2A4285A400991CA4 /* BusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusViewModel.swift; sourceTree = "<group>"; };
+		585580402A42860B00991CA4 /* BookMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMark.swift; sourceTree = "<group>"; };
+		585580422A42861800991CA4 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		585580442A42868500991CA4 /* ListBusComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBusComponent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58557FF92A42828F00991CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58557FF32A42828F00991CA4 = {
+			isa = PBXGroup;
+			children = (
+				580BBEB82A4582BE00DA8064 /* .gitignore */,
+				58557FFE2A42828F00991CA4 /* BLINK */,
+				58557FFD2A42828F00991CA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58557FFD2A42828F00991CA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58557FFC2A42828F00991CA4 /* BLINK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58557FFE2A42828F00991CA4 /* BLINK */ = {
+			isa = PBXGroup;
+			children = (
+				585580122A4282D300991CA4 /* Application */,
+				585580132A4282F800991CA4 /* Core */,
+				5855802A2A42842D00991CA4 /* Features */,
+				585580052A42829100991CA4 /* Preview Content */,
+			);
+			path = BLINK;
+			sourceTree = "<group>";
+		};
+		585580052A42829100991CA4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				585580062A42829100991CA4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		585580122A4282D300991CA4 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				58557FFF2A42828F00991CA4 /* BLINKApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		585580132A4282F800991CA4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				585580142A42830D00991CA4 /* Constant */,
+				585580152A42831500991CA4 /* Resources */,
+				585580162A42832500991CA4 /* Utilities */,
+				585580172A42832D00991CA4 /* Themes */,
+				585580182A42833200991CA4 /* Extension */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		585580142A42830D00991CA4 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				585580192A42836900991CA4 /* Prompt.swift */,
+				5855801B2A42837000991CA4 /* ErrorMessage.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		585580152A42831500991CA4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				585580032A42829100991CA4 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		585580162A42832500991CA4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5855801D2A42838D00991CA4 /* Networking */,
+				5855801E2A42839500991CA4 /* CoreData */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		585580172A42832D00991CA4 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				585580232A4283C500991CA4 /* Color */,
+				585580242A4283D400991CA4 /* Presenters */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		585580182A42833200991CA4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				585580392A42857100991CA4 /* TimeToString.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5855801D2A42838D00991CA4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5855801F2A4283AC00991CA4 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5855801E2A42839500991CA4 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				585580082A42829100991CA4 /* Persistence.swift */,
+				5855800A2A42829100991CA4 /* BLINK.xcdatamodeld */,
+				585580212A4283B800991CA4 /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		585580232A4283C500991CA4 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				585580252A4283E900991CA4 /* AppColor.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		585580242A4283D400991CA4 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				585580272A4283F800991CA4 /* Views */,
+				585580292A42840800991CA4 /* Components */,
+				585580282A42840100991CA4 /* Modifiers */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		585580272A4283F800991CA4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				585580332A42850C00991CA4 /* EmptyState.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		585580282A42840100991CA4 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				585580372A42854000991CA4 /* TextModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		585580292A42840800991CA4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				585580352A42853000991CA4 /* ListComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5855802A2A42842D00991CA4 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				5855802B2A42843C00991CA4 /* BSD Link */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		5855802B2A42843C00991CA4 /* BSD Link */ = {
+			isa = PBXGroup;
+			children = (
+				5855802E2A42846A00991CA4 /* Models */,
+				5855802D2A42846300991CA4 /* ViewModels */,
+				5855802C2A42845700991CA4 /* Presenters */,
+			);
+			path = "BSD Link";
+			sourceTree = "<group>";
+		};
+		5855802C2A42845700991CA4 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				5855803F2A4285BD00991CA4 /* Extension */,
+				5855803E2A4285B700991CA4 /* Views */,
+				5855803D2A4285B000991CA4 /* Components */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		5855802D2A42846300991CA4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5855803B2A4285A400991CA4 /* BusViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5855802E2A42846A00991CA4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5855802F2A42848400991CA4 /* Bus.swift */,
+				585580312A42848B00991CA4 /* BusRepository.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5855803D2A4285B000991CA4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				585580442A42868500991CA4 /* ListBusComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5855803E2A4285B700991CA4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				585580012A42828F00991CA4 /* ContentView.swift */,
+				460668792A42F0100058896F /* inputDataView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5855803F2A4285BD00991CA4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				585580402A42860B00991CA4 /* BookMark.swift */,
+				585580422A42861800991CA4 /* Reminder.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58557FFB2A42828F00991CA4 /* BLINK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5855800F2A42829100991CA4 /* Build configuration list for PBXNativeTarget "BLINK" */;
+			buildPhases = (
+				58557FF82A42828F00991CA4 /* Sources */,
+				58557FF92A42828F00991CA4 /* Frameworks */,
+				58557FFA2A42828F00991CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLINK;
+			productName = BLINK;
+			productReference = 58557FFC2A42828F00991CA4 /* BLINK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58557FF42A42828F00991CA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					58557FFB2A42828F00991CA4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 58557FF72A42828F00991CA4 /* Build configuration list for PBXProject "BLINK" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58557FF32A42828F00991CA4;
+			productRefGroup = 58557FFD2A42828F00991CA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58557FFB2A42828F00991CA4 /* BLINK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58557FFA2A42828F00991CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585580072A42829100991CA4 /* Preview Assets.xcassets in Resources */,
+				580BBEB92A4582BE00DA8064 /* .gitignore in Resources */,
+				585580042A42829100991CA4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58557FF82A42828F00991CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585580302A42848400991CA4 /* Bus.swift in Sources */,
+				585580092A42829100991CA4 /* Persistence.swift in Sources */,
+				585580022A42828F00991CA4 /* ContentView.swift in Sources */,
+				5855803C2A4285A400991CA4 /* BusViewModel.swift in Sources */,
+				585580342A42850C00991CA4 /* EmptyState.swift in Sources */,
+				5855800C2A42829100991CA4 /* BLINK.xcdatamodeld in Sources */,
+				585580382A42854000991CA4 /* TextModifier.swift in Sources */,
+				5855803A2A42857100991CA4 /* TimeToString.swift in Sources */,
+				585580202A4283AC00991CA4 /* NetworkManager.swift in Sources */,
+				585580002A42828F00991CA4 /* BLINKApp.swift in Sources */,
+				5855801C2A42837000991CA4 /* ErrorMessage.swift in Sources */,
+				4606687A2A42F0100058896F /* inputDataView.swift in Sources */,
+				585580222A4283B800991CA4 /* CoreDataManager.swift in Sources */,
+				585580362A42853000991CA4 /* ListComponent.swift in Sources */,
+				585580412A42860B00991CA4 /* BookMark.swift in Sources */,
+				5855801A2A42836900991CA4 /* Prompt.swift in Sources */,
+				585580452A42868500991CA4 /* ListBusComponent.swift in Sources */,
+				585580432A42861800991CA4 /* Reminder.swift in Sources */,
+				585580322A42848B00991CA4 /* BusRepository.swift in Sources */,
+				585580262A4283E900991CA4 /* AppColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5855800D2A42829100991CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5855800E2A42829100991CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		585580102A42829100991CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BLINK/Preview Content\"";
+				DEVELOPMENT_TEAM = BJZP96946W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = krisganteng.BLINK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		585580112A42829100991CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BLINK/Preview Content\"";
+				DEVELOPMENT_TEAM = BJZP96946W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = krisganteng.BLINK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58557FF72A42828F00991CA4 /* Build configuration list for PBXProject "BLINK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5855800D2A42829100991CA4 /* Debug */,
+				5855800E2A42829100991CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5855800F2A42829100991CA4 /* Build configuration list for PBXNativeTarget "BLINK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585580102A42829100991CA4 /* Debug */,
+				585580112A42829100991CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5855800A2A42829100991CA4 /* BLINK.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5855800B2A42829100991CA4 /* BLINK.xcdatamodel */,
+			);
+			currentVersion = 5855800B2A42829100991CA4 /* BLINK.xcdatamodel */;
+			path = BLINK.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 58557FF42A42828F00991CA4 /* Project object */;
+}
